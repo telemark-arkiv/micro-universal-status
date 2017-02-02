@@ -10,7 +10,7 @@ const formatData = require('./lib/format-data')
 
 module.exports = async (request, response) => {
   const {pathname, query} = await parse(request.url, true)
-  if (pathname === '/raw' || pathname === '/json' || pathname === '/html') {
+  if (['/raw', '/json', '/html'].includes(pathname)) {
     const data = request.method === 'POST' ? await json(request) : query
     const status = (await get(data.url, {json: true})).body
     const fields = Array.isArray(data.fields) ? data.fields : data.fields.split('|')

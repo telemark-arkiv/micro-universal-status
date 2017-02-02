@@ -1,7 +1,7 @@
 {
   "name": "micro-universal-status",
   "description": "Shows status for service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.4.0"
+    "node": ">=7.5.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -39,7 +39,7 @@
   },
   "now": {
     "aliases": [
-      "universal.status.t-fk.win"
+      "universal.status.micro.t-fk.no"
     ],
     "env": {
       "NODE_ENV": "production"
@@ -49,7 +49,7 @@
     "coveralls": "2.11.15",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "10.0.0"
+    "tap": "10.0.1"
   },
   "dependencies": {
     "got": "6.7.1",

@@ -19,7 +19,7 @@ Returns json of unformatted data.
 #### GET
 
 ```bash
-$ curl https://universal.status.t-fk.win/raw?url=<url>&fields=field1|field2|field3&title=yay
+$ curl https://universal.status.micro.t-fk.no/raw?url=<url>&fields=field1|field2|field3&title=yay
 ```
 
 ### POST
@@ -44,7 +44,7 @@ Returns json of formatted data.
 #### GET
 
 ```bash
-$ curl https://universal.status.t-fk.win/json?url=<url>&fields=field1|field2|field3&title=yay
+$ curl https://universal.status.micro.t-fk.no/json?url=<url>&fields=field1|field2|field3&title=yay
 ```
 
 ### POST
@@ -68,7 +68,7 @@ Renders formatted data to html.
 #### GET
 
 ```bash
-$ curl https://universal.status.t-fk.win/html?url=<url>&fields=field1|field2|field3&title=yay
+$ curl https://universal.status.micro.t-fk.no/html?url=<url>&fields=field1|field2|field3&title=yay
 ```
 
 ### POST
