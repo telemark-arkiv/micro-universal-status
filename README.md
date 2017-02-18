@@ -3,6 +3,8 @@
 
 # micro-universal-status
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-universal-status.svg)](https://greenkeeper.io/)
+
 Pull stats from service
 
 ## API
