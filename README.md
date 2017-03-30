@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/micro-universal-status.svg?branch=master)](https://travis-ci.org/telemark/micro-universal-status)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-universal-status.svg)](https://greenkeeper.io/)
 
 # micro-universal-status
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/micro-universal-status.svg)](https://greenkeeper.io/)
 
 Pull stats from service
 
@@ -91,4 +90,4 @@ $ curl https://universal.status.micro.t-fk.no/html?url=<url>&fields=field1|field
 
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/micro-universal-status.png "Robohash image of micro-universal-status")
+![micro-universal-status](https://robots.kebabstudios.party/micro-universal-status.png "Robohash image of micro-universal-status")
