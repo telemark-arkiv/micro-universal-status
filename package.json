@@ -48,12 +48,12 @@
   "devDependencies": {
     "coveralls": "3.0.0",
     "nsp": "3.2.1",
-    "standard": "10.0.3",
+    "standard": "11.0.0",
     "tap": "11.1.0"
   },
   "dependencies": {
     "got": "8.2.0",
-    "marked": "0.3.12",
+    "marked": "0.3.17",
     "micro": "9.1.0"
   }
 }
